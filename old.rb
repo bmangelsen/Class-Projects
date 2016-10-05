@@ -18,4 +18,9 @@ def test(x,y)
   end
 end
 
+until age>0 && age<125
+  puts "Error, you dun goofed. Input age again please!"
+  age=gets.chomp.to_i
+end
+
 test(name,age)
